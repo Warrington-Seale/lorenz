@@ -1,0 +1,1 @@
+ffmpeg -r 60 -f image2 -start_number 00000 -i "./imgs/%05d.jpg" vid.mp4
